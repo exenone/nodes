@@ -1,6 +1,6 @@
 {
-  "name": "node00",
-  "version": "1.0.0",
+  "name": "bootstarp",
+  "version": "0.0.1",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,13 @@
   "author": "exenone",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.15.4"
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-header": "^1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   },
   "dependencies": {
     "async": "^2.5.0",
@@ -24,5 +30,8 @@
     "url": "https://github.com/exenone/nodes/issues"
   },
   "homepage": "https://github.com/exenone/nodes#readme",
-  "description": ""
+  "description": "\"this is my first file with database\"",
+  "keywords": [
+    "bootstrap"
+  ]
 }
